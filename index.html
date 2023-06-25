@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/project7.css" />
+    <title>Modal Exercise</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Modal Exercise</h1>
+      <hr />
+    </header>
+    <section class="section">
+      <div class="card">
+        <img
+          src="./assets/images/food1.jpg"
+          alt="Imagen de pankeke"
+          class="imagecard"
+        />
+        <div class="cardContainerText">
+          <h2 class="cardTitle">Pankeke Mediterraneo</h2>
+          <p class="cardText">
+            El pankeke mediterráneo se prepara Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Doloremque quis impedit inventore.
+            Rerum, cumque quisquam.
+          </p>
+          <button class="btnOpenModal">Ver Oferta del Día</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="containerModal hide">
+      <div class="modal">
+        <p class="xClose">&#10006;</p>
+        <div class="modalContent">
+          <h2 class="modalTitle">Hoy Super Oferta !!!</h2>
+          <p class="modalText">
+            <span>LLeve 3 y le encimamos otros 3 al 50%</span> 
+            <p>Hoy único día !</p>
+          </p>
+          <button class="btnTomarOferta">Tomo mi Oferta !</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- My Scripts -->
+
+    <script src="./js/project7.js"></script>
+  </body>
+</html>
